@@ -16,7 +16,10 @@ module.exports = {
       },
       animation: {
         'open-menu': 'open-menu 0.5s ease-out forwards',
-      }
+      },
+      gridTemplateColumns: {
+        '4': 'repeat(4, minmax(14rem, 1fr))'
+      },
     },
   },
   plugins: [],
